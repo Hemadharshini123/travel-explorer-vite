@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* custom styles */
+html, body, #root { height: 100%; }
+
+.card-shadow {
+  box-shadow: 0 6px 18px rgba(15,23,42,0.08);
+}
+
+.transition-smooth {
+  transition: all 0.25s ease-in-out;
+}
